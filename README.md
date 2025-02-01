@@ -1,4 +1,4 @@
-# resumo-dio-az-900
+# Resumo do curso da DIO para Azure AZ-900
 Este repositorio mostra os conhecimentos adiquiridos pela DIO para certificação Azure AZ-900
 
 
