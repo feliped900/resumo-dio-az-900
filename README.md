@@ -1,5 +1,5 @@
 # Resumo do curso da DIO para Azure AZ-900
-Este repositório mostra os conhecimentos adiquiridos pela DIO para certificação Azure AZ-900
+Este repositório mostra os conhecimentos adquiridos pela DIO para certificação Azure AZ-900
 
 ## Abaixo um resumo sobre ambientes referente a computação nas corporações hoje em dia:
 
@@ -81,17 +81,38 @@ Escalar automaticamente a implantação de recursoscom base na necessidade.
 ### IaaS (Infraestrutura com serviço)
 - O cliente envolve mais nas configurações, redes, backups, sistema operacional, monitoramento, etc...
 - Tem mais personalização mais liberdade.
+- Serviço de nuvem mais flexível.
 
 ### PaaS (Plataforma como serviço)
 - Fornece um ambiente para a criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
 - A nuvem fica responsavel por exemplo por sistema operacional, banco de dados.
 - Cliente contrato somente o banco de dados por exemplo não preocupa com a máquina virtual.
+- Focado no desenvolvimento de aplicativos.
 
 ### SaaS (Software como serviço)
 - Cliente contrata já o serviço final, não preocupa com sistema operacional, rede, banco de dados, etc.
 - A aplicação já existe, já esta pronta.
 - Ele já contrata por exemplo um CRM, ERP, Serviço de Email, etc.
 - Os usuários se conectam e usam aplicativos com base em nuvem pela Internet: por exemplo, Microsoft Office 365, email e calendários.
+- Modelo de pagamento onforme o uso
+- Clientes pagem pelo software que utilizam em um modelo de assinatura.
 
 ### Modelo de Responsabilidade Compartilhada
 ![alt text](image.png)
+
+# Modúlo 2
+
+## Componentes de Arquitetura Azure
+
+## Regiões
+- Uma região é um conjunto de Data Centers, geralmente são 3
+- Quando crio um recurso em uma região ele garante a disponibilidade entre esses datacenters
+- Dentro de cada zona (datacenter) tem varios servidores físicos.
+- Caso todos os datacenter da região cai um "Desaster", todos os serviços param, a não ser que tenha um disaster recovery do ambiente em outra região. 
+- Nem todos os recursos estão disponíveis em todas as regiões
+- Os valores por região tem preços diferentes.
+- As regiões são compostas de um ou mais datacenters muito próximos.
+- Eles fornecem flexibilidade e escala para reduzir a latência do cliente. (responsabilidade do servidor de nuvem no caso a Azure)
+- As regiões preservam a residência dos dados com uma oferta abrangente de conformidade. (tem questões de LGPD)
+![alt text](image-1.png)
+![alt text](image-2.png)
