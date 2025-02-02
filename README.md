@@ -125,6 +125,25 @@ Escalar automaticamente a implantação de recursoscom base na necessidade.
 - Regiões soberanas do Azure: Serviços Governamentais dos EUA, Atende às necessidades de segurança e conformidade das Dagências federais, governos estaduais e locais dos EUA e seus
     - Instância separada do Azure. Fisicamente isolada de implantações que não sejam do governo dos EUA.
     - Acessível somente a pessoal verificado e autorizado.
-
+- Recursos do Azure China:
+    - Instância fisicamente separada dos serviços de nuvem do Azure operados pela 21Vianet.
+    - Todos os dados permanecem dentro da China para garantir a conformidade.
 provedores de soluções.
 ![alt text](image-3.png)
+
+## Recursos do Azure
+- Um grupo de recursos é um contêiner que você usa para gerenciar e agregar recursos em uma única unidade.
+- Os recursos podem existir em apenas um grupo de recursos.
+- Os recursos podem existir em diferentes regiões.
+![alt text](image-4.png)
+![alt text](image-5.png)
+
+## Assinaturas do Azure
+- Uma conta esta associado a varias assinaturas, mas uma assinatura pode estar vinculado a somente uma conta.
+- Limite de cobrança:
+    gere relatórios de cobrança e faturas separados para cada assinatura.
+- Limite do controle de acesso: 
+    gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinaturas específicas.
+
+![alt text](image-6.png)
+![alt text](image-7.png)
