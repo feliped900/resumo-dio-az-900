@@ -116,3 +116,15 @@ Escalar automaticamente a implantação de recursoscom base na necessidade.
 - As regiões preservam a residência dos dados com uma oferta abrangente de conformidade. (tem questões de LGPD)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+
+## Pares de Regiões
+- No mínimo 300 milhas de separação entre pares de regiões.
+- Replicação automática para alguns serviços.
+- Recuperação de região priorizada em caso de interrupção.
+- Toda região tem uma região par, para onde são direcionados os serviços de Disaster Recovery.
+- Regiões soberanas do Azure: Serviços Governamentais dos EUA, Atende às necessidades de segurança e conformidade das Dagências federais, governos estaduais e locais dos EUA e seus
+    - Instância separada do Azure. Fisicamente isolada de implantações que não sejam do governo dos EUA.
+    - Acessível somente a pessoal verificado e autorizado.
+
+provedores de soluções.
+![alt text](image-3.png)
