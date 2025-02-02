@@ -75,3 +75,23 @@ Este repositório mostra os conhecimentos adiquiridos pela DIO para certificaç�
 - **O gerenciamento da nuvem diz respeito a gerenciar seus recursos de nuvem. Por exemplo:**
 Escalar automaticamente a implantação de recursoscom base na necessidade.
 - Implantar recursos com base em um modelo pré- configurado, removendo a necessidade de configuração manual.
+
+## Tipos de Serviço de Nuvem na Azure
+
+### IaaS (Infraestrutura com serviço)
+- O cliente envolve mais nas configurações, redes, backups, sistema operacional, monitoramento, etc...
+- Tem mais personalização mais liberdade.
+
+### PaaS (Plataforma como serviço)
+- Fornece um ambiente para a criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
+- A nuvem fica responsavel por exemplo por sistema operacional, banco de dados.
+- Cliente contrato somente o banco de dados por exemplo não preocupa com a máquina virtual.
+
+### SaaS (Software como serviço)
+- Cliente contrata já o serviço final, não preocupa com sistema operacional, rede, banco de dados, etc.
+- A aplicação já existe, já esta pronta.
+- Ele já contrata por exemplo um CRM, ERP, Serviço de Email, etc.
+- Os usuários se conectam e usam aplicativos com base em nuvem pela Internet: por exemplo, Microsoft Office 365, email e calendários.
+
+### Modelo de Responsabilidade Compartilhada
+![alt text](image.png)
